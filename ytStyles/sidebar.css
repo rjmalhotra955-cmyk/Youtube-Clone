@@ -1,0 +1,46 @@
+.side-bar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    background-color: white;
+    width: 72px;
+    border-right-width: 1px;
+    border-right-color:rgb(249, 249, 249);
+    border-right-style: solid;
+    
+
+}
+
+
+
+    
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    height: 90px;
+    margin-bottom: 1px;
+}
+
+.text{
+    font-family: arial, roboto;
+    font-size: 10px;
+}
+
+.icon{
+    height: 30px;
+}
+
+.container:hover{
+  background-color: lightgray;
+
+
+
+}
